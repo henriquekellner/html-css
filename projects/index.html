@@ -16,5 +16,21 @@
         <p><input type="submit" value="Enviar"></p>
     </form>
 
+    <h1>Segundo Formulário</h1>
+    <form action="cadastro.php" autocomplete="off" method="post">
+        <p>
+            <label for="Nome">Nome:</label>
+            <input type="text" name="Nome" id="Nome" required minlength="5" maxlength="19" placeholder="Usuario">
+        </p>
+        <p>
+            <label for="Senha">Senha:</label>
+            <input type="password" name="Senha" id="Senha" required minlength="8" placeholder="Senha">
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+
 </body>
 </html>
